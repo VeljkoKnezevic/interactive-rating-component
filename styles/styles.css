@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  background-color: #131518;
+}
+
+main {
+  max-width: 327px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+  border-radius: 15px;
+}
+main .rating-card {
+  margin: 24px 24px 32px 24px;
+}
+main .rating-card img {
+  padding: 13px;
+  border-radius: 50%;
+  background: #262E38;
+}
+main .rating-card h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #FFFFFF;
+  margin: 16px 0 10px 0;
+}
+main .rating-card p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #969FAD;
+}
+main .rating-card .ratings {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 24px 0;
+}
+main .rating-card .ratings .number {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.175px;
+  color: #7C8798;
+  background-color: #262E38;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+}
+main .rating-card .ratings .checked {
+  background-color: #FC7614;
+  color: #FFFFFF;
+}
+main .rating-card button {
+  background: #FC7614;
+  border-radius: 22.5px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 1.86667px;
+  color: #FFFFFF;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+main .thanks-card {
+  margin: 34px 24px 37px 24px;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+main .thanks-card .total {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #FC7614;
+  background-color: #262E38;
+  padding: 5px 12px;
+  border-radius: 22.5px;
+}
+main .thanks-card h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .thanks-card p {
+  margin: 0;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+  color: #969FAD;
+}
+
+@media (min-width: 450px) {
+  main {
+    max-width: 412px;
+  }
+  main .rating-card {
+    margin: 32px;
+  }
+  main .rating-card img {
+    padding: 16px;
+  }
+  main .rating-card h1 {
+    font-size: 1.75rem;
+    line-height: 2.188rem;
+    margin: 30px 0 15px 0;
+  }
+  main .rating-card p {
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+  }
+  main .rating-card .ratings {
+    margin: 24px 0 32px 0;
+  }
+  main .rating-card .ratings .number {
+    width: 21px;
+    height: 21px;
+    padding: 15px;
+  }
+  main .rating-card .ratings .number:hover {
+    background-color: #7C8798;
+    color: #FFFFFF;
+  }
+  main .rating-card .ratings .checked {
+    background-color: #FC7614;
+    color: #FFFFFF;
+  }
+  main .rating-card .ratings .checked:hover {
+    background-color: #FC7614;
+    color: #FFFFFF;
+  }
+  main .rating-card button {
+    font-family: "Overpass", sans-serif;
+    font-size: 0.938rem;
+    line-height: 1.188rem;
+    letter-spacing: 2px;
+  }
+  main .rating-card button:hover {
+    background-color: #FFFFFF;
+    color: #FC7614;
+  }
+  main .thanks-card {
+    margin: 45px 40px 45px 32px;
+  }
+  main .thanks-card .total {
+    margin: 32px 0;
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    padding: 5px 20px;
+  }
+  main .thanks-card h1 {
+    font-size: 1.75rem;
+    line-height: 2.188rem;
+  }
+  main .thanks-card p {
+    font-size: 0.938rem;
+    line-height: 1.5rem;
+    margin-top: 7px;
+  }
+}/*# sourceMappingURL=styles.css.map */
